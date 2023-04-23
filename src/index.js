@@ -38,7 +38,7 @@ function renderCountriesSearch(name) {
     console.log(markupList);
     refs.country.insertAdjacentHTML('beforeend', markupList);
   }
-  else if (name.length = 1) {
+  else if (name.length === 1) {
     const markupList = creatListOfCountries(name);
     console.log(markupList);
     refs.country.insertAdjacentHTML('beforeend', markupList);
